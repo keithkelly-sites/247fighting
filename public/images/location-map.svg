@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+<rect width="600" height="400" fill="oklch(0.14 0.01 75)"/>
+<path d="M392.3,187.0 L445.0,182.0 L515.5,175.2" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M505.7,111.4 L532.6,108.4 L558.0,107.0 L574.7,112.6" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M204.6,326.3 L237.9,372.1 L249.5,388.1" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M242.6,283.1 L297.3,331.6 L310.9,343.0 L315.4,345.3 L325.3,349.8 L333.6,355.3 L373.0,389.7 L378.7,397.5 L381.6,404.5 L382.5,410.8 L382.7,418.7 L380.3,428.1 L375.3,436.0 L368.5,442.4 L360.2,448.5 L351.2,451.4 L342.6,452.0 L334.9,451.0 L328.2,448.5 L321.2,443.4 L314.6,437.0 L298.0,413.7 L292.8,406.5" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M456.3,331.9 L460.7,324.4 L474.0,301.8 L477.0,296.7" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M477.0,296.7 L482.7,291.4 L483.9,289.7 L488.3,283.4 L493.2,271.9 L495.3,263.3 L496.3,258.7 L501.0,234.4 L515.5,175.2 L532.6,108.4 L524.6,47.2" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74.9,261.6 L96.9,280.1 L182.9,352.3" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M524.6,47.2 L653.0,34.6" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.3,219.5 L82.7,252.3 L74.9,261.6 L39.7,304.1 L-4.0,358.1 L-6.6,362.8 L-7.9,367.0 L-32.2,396.8" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M110.3,219.5 L189.9,287.7 L216.6,310.6" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M445.0,182.0 L448.7,210.2" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M622.9,156.7 L619.6,152.9 L614.2,149.7 L603.4,146.3 L582.3,141.3 L578.9,139.8 L578.9,135.7 L577.8,123.5 L574.7,112.6 L591.7,97.0" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M271.4,243.1 L268.8,248.4 L249.9,273.4 L242.6,283.1 L216.6,310.6 L204.6,326.3 L182.9,352.3 L168.7,368.9 L164.4,374.0 L147.0,394.4 L125.5,419.8 L94.0,457.3" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-7.9,367.0 L-2.1,374.6 L16.2,390.3 L94.0,457.3" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M363.7,282.5 L369.6,261.1 L373.9,245.5 L377.2,244.4 L394.6,252.1 L426.9,266.8 L433.4,270.1 L452.8,279.7 L466.0,287.4 L469.1,289.2 L477.0,296.7" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M87.9,344.0 L147.0,394.4" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M39.7,304.1 L27.5,295.3 L13.8,282.8 L4.2,275.8" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M442.4,341.5 L434.6,335.7 L429.9,334.8 L426.0,337.9 L422.5,344.4 L420.9,353.9 L419.4,365.0 L418.7,372.0 L418.2,377.2 L416.5,393.0 L415.6,402.9 L416.1,417.0 L416.2,425.5 L414.7,436.6 L411.7,447.2 L407.6,454.7" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M510.5,364.3 L502.1,368.9 L467.3,356.5 L455.1,349.2 L442.4,341.5" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M134.3,184.5 L126.0,199.3 L110.3,219.5" fill="none" stroke="oklch(0.22 0.006 75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.2,107.9 L84.6,97.8 L126.9,91.8 L180.7,85.0" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-53.2,80.5 L-5.5,106.5" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M560.4,383.9 L561.9,378.0 L563.5,372.4 L576.6,324.1 L578.9,315.8 L582.4,303.0 L585.4,296.9 L590.0,293.0 L596.3,291.1 L623.6,286.0 L639.1,283.0 L646.9,283.0 L653.1,284.4" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163.1,200.4 L183.1,213.5 L197.4,220.8 L209.3,226.3 L232.4,235.7 L256.5,244.3 L268.8,248.4 L305.1,260.7 L306.5,261.1 L320.2,265.9 L340.7,274.1 L353.2,279.7 L356.8,280.7 L363.7,282.5" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M363.7,282.5 L354.7,276.1 L341.9,269.6 L322.0,260.8 L308.5,255.6 L271.4,243.1 L235.3,230.5 L220.1,224.2 L210.6,220.2 L198.4,214.8 L185.3,208.7 L163.1,200.4" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M363.7,282.5 L390.7,296.9 L398.6,301.1 L425.3,315.3 L446.2,326.5 L456.3,331.9" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M532.3,452.3 L550.2,442.1 L556.9,437.0" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M592.4,401.2 L571.8,390.1 L560.4,383.9 L536.8,371.3 L517.7,361.1 L500.0,352.2 L484.6,344.3 L477.3,340.6 L465.4,335.7 L456.3,331.9" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M456.3,331.9 L474.5,344.1 L510.5,364.3 L526.7,372.9 L527.2,373.2 L540.7,380.4 L588.3,406.0" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M556.9,437.0 L565.3,430.7" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M13.2,107.9 L0.9,110.1" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0.9,110.1 L21.4,121.6" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.4,121.6 L134.3,184.5 L163.1,200.4" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-5.5,106.5 L0.9,110.1" fill="none" stroke="oklch(0.30 0.012 75)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="305.1" y="255.7" fill="oklch(0.50 0.01 75)" font-size="10" font-family="sans-serif" text-anchor="middle" transform="rotate(15.9 305.1 255.7)">Lincoln Highway</text>
+<text x="126.9" y="86.8" fill="oklch(0.50 0.01 75)" font-size="8" font-family="sans-serif" text-anchor="middle" transform="rotate(-7.2 126.9 86.8)">Naser Road</text>
+<text x="445.0" y="179.0" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(-5.5 445.0 179.0)">Wallace Drive</text>
+<text x="474.0" y="298.8" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(-59.5 474.0 298.8)">Dix Drive</text>
+<text x="96.9" y="277.1" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(40.0 96.9 277.1)">Brady Street</text>
+<text x="189.9" y="284.7" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(40.6 189.9 284.7)">Basil Street</text>
+<text x="448.7" y="207.2" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(82.5 448.7 207.2)">Newman Circle</text>
+<text x="182.9" y="349.3" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(-49.5 182.9 349.3)">Luehm Avenue</text>
+<text x="426.9" y="263.8" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(26.9 426.9 263.8)">Bach Drive</text>
+<text x="467.3" y="353.5" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(30.9 467.3 353.5)">Hoffman Road</text>
+<text x="126.0" y="196.3" fill="oklch(0.40 0.006 75)" font-size="7" font-family="sans-serif" text-anchor="middle" transform="rotate(-52.1 126.0 196.3)">Denning Way</text>
+<ellipse cx="300.0" cy="202.0" rx="8" ry="3" fill="oklch(0.08 0 0)" opacity="0.4"/>
+<path d="M300.0,178.0 C289.0,178.0 287.0,189.0 300.0,200.0 C313.0,189.0 311.0,178.0 300.0,178.0Z" fill="#FBB926"/>
+<circle cx="300.0" cy="185.0" r="4.5" fill="oklch(0.14 0.01 75)"/>
+<text x="595" y="395" fill="oklch(0.30 0.005 75)" font-size="6" font-family="sans-serif" text-anchor="end">© OpenStreetMap contributors</text>
+</svg>
