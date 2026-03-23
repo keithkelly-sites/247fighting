@@ -16,7 +16,28 @@
 
   Reference sites: Matchroom Boxing (Awwwards), UFC.com, modern dark parallax sports sites.
 */
+import { Image } from 'astro:assets';
 import Layout from '../layouts/Layout.astro';
+
+// Image imports
+import heroImg from '../assets/images/tatzuo-photo-bitb23-full-crowd-above-copy-resize-1920w.jpg';
+import eventBannerImg from '../assets/images/bitb30-20--20event-20banner-20main-1920w.jpg';
+import beltImg from '../assets/images/angel-247-fighting-championships-belt-for-website-medium-1920w.jpg';
+import faceoffImg from '../assets/images/justin-patton-face-247-fighting-championships-400x305-1920w.jpg';
+import flyingKneeImg from '../assets/images/lucas-seibert-flying-knee-bitb20-247-fighting-championships-medium-1920w.jpg';
+import winnerImg from '../assets/images/20231020-ag4i5553-scaled-600x400-1920w.jpg';
+import interviewImg from '../assets/images/20231021-ag4i2717-scaled-600x400-1920w.jpg';
+import crowdTablesImg from '../assets/images/20231216-ag4i4881-scaled-600x400-1920w.jpg';
+import venueSignImg from '../assets/images/sunny-days-arena-sign-close-up-1920w.jpg';
+import fightPosterImg from '../assets/images/247-20mma-20--20ig-20poster-204-1920w.jpg';
+import podcastMattImg from '../assets/images/matt-leyshock-247-fighting-championships-combat-sports-podcast-full-thumbnail-large-1920w.jpg';
+import podcastDjImg from '../assets/images/dj-cake-247-fighting-championships-pittsburgh-podcast-large-1920w.jpg';
+import sponsorSunnyImg from '../assets/images/sunny-400x222-1920w.jpg';
+import sponsorMeatsImg from '../assets/images/stip-district-meats-circle-logo-small-1920w.jpg';
+import sponsorGreenImg from '../assets/images/go-green-yard-sign-400x185-1920w.jpg';
+import sponsor247Img from '../assets/images/247_logo-1_gold-1920w.jpg';
+import sponsorRehabImg from '../assets/images/rehab-centre-logo-400x117-1920w.jpg';
+import sponsorPellmanImg from '../assets/images/pellman-logo-1920w.jpg';
 
 const businessJsonLd = {
   '@context': 'https://schema.org',
@@ -50,12 +71,12 @@ const businessJsonLd = {
 };
 
 const actionImages = [
-  { src: '/images/angel-247-fighting-championships-belt-for-website-medium-1920w.jpg', alt: 'Fighter holding championship belt in front of crowd' },
-  { src: '/images/justin-patton-face-247-fighting-championships-400x305-1920w.jpg', alt: 'Two fighters face off during an MMA bout' },
-  { src: '/images/lucas-seibert-flying-knee-bitb20-247-fighting-championships-medium-1920w.jpg', alt: 'Fighter lands a flying knee in the cage' },
-  { src: '/images/20231020-ag4i5553-scaled-600x400-1920w.jpg', alt: 'Winner announced with hand raised in the cage' },
-  { src: '/images/20231021-ag4i2717-scaled-600x400-1920w.jpg', alt: 'Post-fight interview inside the cage' },
-  { src: '/images/20231216-ag4i4881-scaled-600x400-1920w.jpg', alt: 'Crowd watching fights at ringside tables' },
+  { src: beltImg, alt: 'Fighter holding championship belt in front of crowd' },
+  { src: faceoffImg, alt: 'Two fighters face off during an MMA bout' },
+  { src: flyingKneeImg, alt: 'Fighter lands a flying knee in the cage' },
+  { src: winnerImg, alt: 'Winner announced with hand raised in the cage' },
+  { src: interviewImg, alt: 'Post-fight interview inside the cage' },
+  { src: crowdTablesImg, alt: 'Crowd watching fights at ringside tables' },
 ];
 ---
 
@@ -66,11 +87,12 @@ const actionImages = [
   <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
     <div class="hero-bg">
-      <img
-        src="/images/tatzuo-photo-bitb23-full-crowd-above-copy-resize-1920w.jpg"
+      <Image
+        src={heroImg}
         alt="Packed crowd at a 247 Fighting Championships event inside Sunny Days Arena"
-        width="1500"
-        height="802"
+        width={1500}
+        height={802}
+        loading="eager"
         fetchpriority="high"
       />
     </div>
@@ -102,11 +124,11 @@ const actionImages = [
     <div class="container">
       <div class="event-grid reveal">
         <div class="event-image">
-          <img
-            src="/images/bitb30-20--20event-20banner-20main-1920w.jpg"
+          <Image
+            src={eventBannerImg}
             alt="247 MMA at the Venue event banner featuring Khama Worthy vs Luis Pena"
-            width="1920"
-            height="1008"
+            width={1920}
+            height={1008}
             loading="lazy"
           />
           <div class="event-badge">Next Event</div>
@@ -145,7 +167,7 @@ const actionImages = [
     <div class="strip-track" id="strip-track">
       {[...actionImages, ...actionImages].map(img => (
         <div class="strip-item">
-          <img src={img.src} alt={img.alt} width="400" height="200" loading="lazy" />
+          <Image src={img.src} alt={img.alt} width={400} height={200} loading="lazy" />
         </div>
       ))}
     </div>
@@ -189,11 +211,11 @@ const actionImages = [
   <!-- ===== VENUE ===== -->
   <section class="venue section">
     <div class="venue-bg">
-      <img
-        src="/images/sunny-days-arena-sign-close-up-1920w.jpg"
+      <Image
+        src={venueSignImg}
         alt="Sunny Days Arena entrance sign in North Versailles, PA"
-        width="1920"
-        height="1440"
+        width={1920}
+        height={1440}
         loading="lazy"
       />
     </div>
@@ -226,11 +248,11 @@ const actionImages = [
         </div>
         <div class="streaming-visual reveal reveal-delay-2">
           <div class="stream-card">
-            <img
-              src="/images/247-20mma-20--20ig-20poster-204-1920w.jpg"
+            <Image
+              src={fightPosterImg}
               alt="247 MMA at the Venue fight poster"
-              width="600"
-              height="600"
+              width={600}
+              height={600}
               loading="lazy"
             />
             <div class="stream-card-overlay">
@@ -249,8 +271,8 @@ const actionImages = [
       <div class="podcast-grid">
         <div class="podcast-visual reveal">
           <div class="podcast-mosaic">
-            <img src="/images/matt-leyshock-247-fighting-championships-combat-sports-podcast-full-thumbnail-large-1920w.jpg" alt="Pittsburgh Combat Sports Podcast with Matt Leyshock" width="1024" height="576" loading="lazy" class="mosaic-main" />
-            <img src="/images/dj-cake-247-fighting-championships-pittsburgh-podcast-large-1920w.jpg" alt="DJ Cake on Pittsburgh Combat Sports Podcast" width="1024" height="576" loading="lazy" class="mosaic-secondary" />
+            <Image src={podcastMattImg} alt="Pittsburgh Combat Sports Podcast with Matt Leyshock" width={1024} height={576} loading="lazy" class="mosaic-main" />
+            <Image src={podcastDjImg} alt="DJ Cake on Pittsburgh Combat Sports Podcast" width={1024} height={576} loading="lazy" class="mosaic-secondary" />
           </div>
         </div>
         <div class="podcast-text reveal reveal-delay-1">
@@ -301,22 +323,22 @@ const actionImages = [
       </div>
       <div class="sponsors-grid reveal reveal-delay-1">
         <a href="https://sunnydaysinhomecare.com/" target="_blank" rel="noopener noreferrer" class="sponsor-item" aria-label="Sunny Days In-Home Care">
-          <img src="/images/sunny-400x222-1920w.jpg" alt="Sunny Days In-Home Care" width="200" height="111" loading="lazy" />
+          <Image src={sponsorSunnyImg} alt="Sunny Days In-Home Care" width={200} height={111} loading="lazy" />
         </a>
         <a href="https://www.instagram.com/stripdistrictmeats/" target="_blank" rel="noopener noreferrer" class="sponsor-item" aria-label="Strip District Meats">
-          <img src="/images/stip-district-meats-circle-logo-small-1920w.jpg" alt="Strip District Meats" width="120" height="120" loading="lazy" />
+          <Image src={sponsorMeatsImg} alt="Strip District Meats" width={120} height={120} loading="lazy" />
         </a>
         <a href="https://gogreenwindowspgh.com/" target="_blank" rel="noopener noreferrer" class="sponsor-item" aria-label="Go Green Windows">
-          <img src="/images/go-green-yard-sign-400x185-1920w.jpg" alt="Go Green Windows" width="200" height="93" loading="lazy" />
+          <Image src={sponsorGreenImg} alt="Go Green Windows" width={200} height={93} loading="lazy" />
         </a>
         <a href="https://www.247homeremodeling.com/" target="_blank" rel="noopener noreferrer" class="sponsor-item" aria-label="247 Home Remodeling">
-          <img src="/images/247_logo-1_gold-1920w.jpg" alt="247 Home Remodeling" width="200" height="67" loading="lazy" />
+          <Image src={sponsor247Img} alt="247 Home Remodeling" width={200} height={67} loading="lazy" />
         </a>
         <a href="http://therehabcentres.com/" target="_blank" rel="noopener noreferrer" class="sponsor-item" aria-label="The Rehab Centre">
-          <img src="/images/rehab-centre-logo-400x117-1920w.jpg" alt="The Rehab Centre" width="200" height="59" loading="lazy" />
+          <Image src={sponsorRehabImg} alt="The Rehab Centre" width={200} height={59} loading="lazy" />
         </a>
         <span class="sponsor-item" aria-label="Pellman">
-          <img src="/images/pellman-logo-1920w.jpg" alt="Pellman" width="200" height="100" loading="lazy" />
+          <Image src={sponsorPellmanImg} alt="Pellman" width={200} height={100} loading="lazy" />
         </span>
       </div>
     </div>

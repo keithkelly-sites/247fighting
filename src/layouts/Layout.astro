@@ -1,7 +1,8 @@
 ---
-import { Font } from 'astro:assets';
+import { Font, Image } from 'astro:assets';
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
+import logoImg from '../assets/images/logo-copy-1920w.jpg';
 
 interface Props {
   title: string;
@@ -55,7 +56,7 @@ const currentPath = Astro.url.pathname;
     <header class="site-header" id="site-header">
       <div class="header-inner">
         <a href="/" class="logo" aria-label="247 Fighting Championships home">
-          <img src="/images/logo-copy-1920w.jpg" alt="247 Fighting Championships" width="50" height="47" />
+          <Image src={logoImg} alt="247 Fighting Championships" width={50} height={47} />
         </a>
 
         <nav class="main-nav" id="main-nav" aria-label="Main navigation">
@@ -96,7 +97,7 @@ const currentPath = Astro.url.pathname;
       <div class="container">
         <div class="footer-top">
           <div class="footer-brand">
-            <img src="/images/logo-copy-1920w.jpg" alt="247 Fighting Championships" width="70" height="66" class="footer-logo" />
+            <Image src={logoImg} alt="247 Fighting Championships" width={70} height={66} class="footer-logo" />
             <p class="footer-tagline">Pittsburgh's home for live MMA and combat sports. Based in North Versailles, PA.</p>
           </div>
 
